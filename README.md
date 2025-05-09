@@ -1,0 +1,6 @@
+- Install Node.js
+- open terminal and cd dir
+- npm init -y
+- npm install goole-auth-library axios
+- create xxxxx.js in vc code
+- node xxxxx.js
