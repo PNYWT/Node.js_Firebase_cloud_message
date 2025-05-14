@@ -18,11 +18,11 @@ async function getAccessToken() {
 async function sendSilentPush() {
     const accessToken = await getAccessToken();
     const iosFcmToken = '';
-    const iosAndroid = '';
+    const androidFcmToken = '';
 
     const projectId = serviceAccount.project_id;
 
-    for (const token of [iosFcmToken, iosAndroid]) {
+    for (const token of [iosFcmToken, androidFcmToken]) {
       const message = {
         message: {
           token: token, // ✅ ใช้ token จาก loop
